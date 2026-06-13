@@ -1,0 +1,23 @@
+{
+  "model_name": "diabetes-risk-mlp",
+  "description": "Red neuronal densa para clasificacion binaria de riesgo de diabetes entrenada con Keras y optimizador Adam.",
+  "input_columns": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "target_column": "Outcome",
+  "accuracy": 0.7468,
+  "trained_at": "2026-06-13T04:49:46.164667+00:00",
+  "tensorflow_version": "2.20.0",
+  "keras_version": "3.12.2",
+  "epochs_ran": 47,
+  "dataset_rows": 768,
+  "dataset_file": "diabetes.csv",
+  "notes": "No se realiza limpieza clinica avanzada de valores cero o atipicos porque esta practica prioriza el flujo ML + API + Frontend."
+}
