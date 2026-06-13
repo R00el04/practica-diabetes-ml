@@ -2,12 +2,19 @@
 __pycache__/
 *.pyc
 venv/
+.venv/
 .env
+.env.local
+.env.development
+.env.production
 
 # Next.js
 frontend/node_modules/
 frontend/.next/
 frontend/out/
+
+# Archivos temporales y empaquetados
+*.zip
 
 # Sistema
 .DS_Store
